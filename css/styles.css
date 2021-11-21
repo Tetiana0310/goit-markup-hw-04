@@ -85,6 +85,24 @@ img {
 
 .nav-mail {
   margin-right: 10px;
+  fill: currentColor;
+}
+.nav-mail:focus,
+.nav-mail:hover {
+  color: var(--accent-color);
+}
+
+.header-tel-li {
+  display: flex;
+  align-items: center;
+}
+.nav-tel {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.nav-tel:focus,
+.nav-tel:hover {
+  color: var(--accent-color);
 }
 
 .header-container {
@@ -163,6 +181,12 @@ img {
 /* ----------HERO-------*/
 .hero-section {
   background-color: var(--dark-background-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
+  max-width: 1600px;
   text-align: center;
   display: block;
   padding: 200px 0;
@@ -227,6 +251,12 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-text-color);
+}
+.icon-antenna {
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+  margin-bottom: 20px;
+  border-radius: 4px;
 }
 /* --------ABOUT US------- */
 
