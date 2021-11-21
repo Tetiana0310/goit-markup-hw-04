@@ -75,7 +75,18 @@ img {
 .header-contact-list {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
+
+.header-mail-li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-mail {
+  margin-right: 10px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -127,6 +138,7 @@ img {
 
 .header-mail-li {
   margin-right: 50px;
+  /* display: flex; */
 }
 
 .header-mail {
@@ -136,6 +148,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   padding: 32px 0;
+  display: flex;
+  align-items: center;
 }
 .header-tel {
   font-weight: 500;
